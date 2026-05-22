@@ -49,9 +49,11 @@ window.FREEDOM_CONFIG = {
   /** 行高，影響垂直視覺密度 */
   lineHeight: 1.2,
 
-  /** 字體族：優先使用等寬、終端機風格字體 */
-  fontFamily:
-    '"JetBrains Mono", "Cascadia Code", "Fira Code", Consolas, "Courier New", monospace',
+  /**
+   * 字體族（index.html 已載入 JetBrains Mono，手機/電腦會一致）
+   * 若改字型，請同步改 index.html 的 Google Fonts 連結
+   */
+  fontFamily: '"JetBrains Mono", monospace',
 
   /** 文字顏色（終端機綠可改 "#33ff33" 等） */
   textColor: "#e8e8e8",
