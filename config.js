@@ -4,7 +4,7 @@
  */
 window.FREEDOM_CONFIG = {
   /** 要逐步打出的文字 */
-  text: "FREEDOM.",
+  text: "FREEDOM",
 
   /** 每個字出現的間隔（毫秒），數字越小越快 */
   charDelayMs: 120,
